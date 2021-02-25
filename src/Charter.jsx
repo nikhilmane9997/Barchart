@@ -5,6 +5,12 @@ export default function Charter() {
 const [one, setone] = useState()
 const [two, settwo] = useState(2015)
 const [labeldata, setlabeldata] = useState(65)
+const [labeldata1, setlabeldata1] = useState(59)
+const [labeldata2, setlabeldata2] = useState(80)
+const [labeldata3, setlabeldata3] = useState(81)
+const [labeldata4, setlabeldata4] = useState(56)
+const [labeldata5, setlabeldata5] = useState(60)
+const [labeldata6, setlabeldata6] = useState(70)
 const [update, setupdate] = useState({
   val:[],
   ind:[]
@@ -32,7 +38,7 @@ const data = {
         pointHoverBorderWidth: 2,
         pointRadius: 1,
         pointHitRadius: 10,
-        data: [labeldata, 59, 80, 81, 56, 60, 70],
+        data: [labeldata, labeldata1, labeldata2, labeldata3, labeldata4, labeldata5, labeldata6],
       },
     ],
     options: {
@@ -92,8 +98,20 @@ const HandleTwo = (e) => {
         <input type="text" onChange={HandleTwo} placeholder="enter year"/>
         <button  onClick={
             ()=>{
-                if(Number(two) === data.labels[0] ){
+              if(Number(two) === data.labels[0] ){
                     setlabeldata(Number(data.datasets[0].data[0]) + Number(one))
+                } else  if(Number(two) === data.labels[1] ){
+                    setlabeldata1(Number(data.datasets[0].data[1]) + Number(one))
+                } else  if(Number(two) === data.labels[2] ){
+                    setlabeldata2(Number(data.datasets[0].data[2]) + Number(one))
+                } else  if(Number(two) === data.labels[3] ){
+                    setlabeldata3(Number(data.datasets[0].data[3]) + Number(one))
+                } else  if(Number(two) === data.labels[4] ){
+                    setlabeldata4(Number(data.datasets[0].data[4]) + Number(one))
+                } else  if(Number(two) === data.labels[5] ){
+                    setlabeldata5(Number(data.datasets[0].data[5]) + Number(one))
+                } else  if(Number(two) === data.labels[6] ){
+                    setlabeldata6(Number(data.datasets[0].data[6]) + Number(one))
                 }
             }
         }>Submit</button></center>
