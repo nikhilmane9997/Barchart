@@ -1,0 +1,316 @@
+
+    {
+        "chartdata":[
+            {
+                "name":"Advances",
+                "year":[{
+                    "2019":{
+                        
+                        "No of Frauds":4610,
+                        "Amount":182051
+                    },
+                    "2018":{
+                        "No of Frauds":3606,
+                        "Amount":54548
+                    },
+                    "2017":{
+                        "No of Frauds":2525,
+                        "Amount":22448
+                    },
+                    "2016":{
+                        "No of Frauds":2322,
+                        "Amount":20561
+                    },
+                    "2015":{
+                        "No of Frauds":2125,
+                        "Amount":17368
+                    },
+                    "2014":{
+                        "No of Frauds":2251,
+                        "Amount":17122
+                    }
+                }]
+            },
+            {
+                "name":"Off Balance Sheet",
+                "year":[{
+                    "2019":{
+                        "No of Frauds":34,
+                        "Amount":2445
+                    },
+                    "2018":{
+                        "No of Frauds":33,
+                        "Amount":5538
+                    },
+                    "2017":{
+                        "No of Frauds":20,
+                        "Amount":16288
+                    },
+                    "2016":{
+                        "No of Frauds":5,
+                        "Amount":63
+                    },
+                    "2015":{
+                        "No of Frauds":4,
+                        "Amount":132
+                    },
+                    "2014":{
+                        "No of Frauds":10,
+                        "Amount":699
+                    }
+                
+    
+            }]
+            }
+            ,
+            {
+                "name":"Forex Transaction",
+                "year":[{
+                    "2019":{
+                        "No of Frauds":8,
+                        "Amount":54
+                    },
+                    "2018":{
+                        "No of Frauds":13,
+                        "Amount":695
+                    },
+                    "2017":{
+                        "No of Frauds":9,
+                        "Amount":1426
+                    },
+                    "2016":{
+                        "No of Frauds":16,
+                        "Amount":2201
+                    },
+                    "2015":{
+                        "No of Frauds":17,
+                        "Amount":2201
+                    },
+                    "2014":{
+                        "No of Frauds":16,
+                        "Amount":899
+                    }
+                
+    
+            }]
+            },
+            {
+                "name":"Card/Internet",
+                "year":[{
+                    "2019":{
+                        "No of Frauds":2678,
+                        "Amount":195
+                    },
+                    "2018":{
+                        "No of Frauds":1866,
+                        "Amount":71
+                    },
+                    "2017":{
+                        "No of Frauds":2059,
+                        "Amount":110
+                    },
+                    "2016":{
+                        "No of Frauds":1372,
+                        "Amount":42
+                    },
+                    "2015":{
+                        "No of Frauds":1191,
+                        "Amount":40
+                    },
+                    "2014":{
+                        "No of Frauds":845,
+                        "Amount":52
+                    }
+                
+    
+            }]
+            },
+            {
+                "name":"Deposits",
+                "year":[{
+                    "2019":{
+                        "No of Frauds":530,
+                        "Amount":616
+                    },
+                    "2018":{
+                        "No of Frauds":593,
+                        "Amount":148
+                    },
+                    "2017":{
+                        "No of Frauds":691,
+                        "Amount":457
+                    },
+                    "2016":{
+                        "No of Frauds":695,
+                        "Amount":903
+                    },
+                    "2015":{
+                        "No of Frauds":757,
+                        "Amount":809
+                    },
+                    "2014":{
+                        "No of Frauds":876,
+                        "Amount":437
+                    }
+                
+    
+            }]
+            },
+            {
+                "name":"",
+                "year":[{
+                    "2019":{
+                        "No of Frauds":2,
+                        "Amount":0
+                    },
+                    "2018":{
+                        "No of Frauds":3,
+                        "Amount":0
+                    },
+                    "2017":{
+                        "No of Frauds":6,
+                        "Amount":1
+                    },
+                    "2016":{
+                        "No of Frauds":1,
+                        "Amount":1
+                    },
+                    "2015":{
+                        "No of Frauds":4,
+                        "Amount":10
+                    },
+                    "2014":{
+                        "No of Frauds":4,
+                        "Amount":0
+                    }
+                
+    
+            }]
+            },
+            {
+                "name":"",
+                "year":[{
+                    "2019":{
+                        "No of Frauds":371,
+                        "Amount":63
+                    },
+                    "2018":{
+                        "No of Frauds":274,
+                        "Amount":56
+                    },
+                    "2017":{
+                        "No of Frauds":218,
+                        "Amount":40
+                    },
+                    "2016":{
+                        "No of Frauds":239,
+                        "Amount":37
+                    },
+                    "2015":{
+                        "No of Frauds":160,
+                        "Amount":22
+                    },
+                    "2014":{
+                        "No of Frauds":153,
+                        "Amount":43
+                    }
+                
+    
+            }]
+            },
+            {
+                "name":"",
+                "year":[{
+                    "2019":{
+                        "No of Frauds":202,
+                        "Amount":39
+                    },
+                    "2018":{
+                        "No of Frauds":189,
+                        "Amount":34
+                    },
+                    "2017":{
+                        "No of Frauds":207,
+                        "Amount":34
+                    },
+                    "2016":{
+                        "No of Frauds":235,
+                        "Amount":40
+                    },
+                    "2015":{
+                        "No of Frauds":234,
+                        "Amount":25
+                    },
+                    "2014":{
+                        "No of Frauds":254,
+                        "Amount":26
+                    }
+                
+    
+            }]
+            },
+            {
+                "name":"",
+                "year":[{
+                    "2019":{
+                        "No of Frauds":22,
+                        "Amount":7
+                    },
+                    "2018":{
+                        "No of Frauds":24,
+                        "Amount":209
+                    },
+                    "2017":{
+                        "No of Frauds":37,
+                        "Amount":6
+                    },
+                    "2016":{
+                        "No of Frauds":27,
+                        "Amount":6
+                    },
+                    "2015":{
+                        "No of Frauds":17,
+                        "Amount":87
+                    },
+                    "2014":{
+                        "No of Frauds":29,
+                        "Amount":7
+                    }
+                
+    
+            }]
+            },
+            {
+                "name":"",
+                "year":[{
+                    "2019":{
+                        "No of Frauds":250,
+                        "Amount":174
+                    },
+                    "2018":{
+                        "No of Frauds":200,
+                        "Amount":244
+                    },
+                    "2017":{
+                        "No of Frauds":144,
+                        "Amount":247
+                    },
+                    "2016":{
+                        "No of Frauds":164,
+                        "Amount":80
+                    },
+                    "2015":{
+                        "No of Frauds":184,
+                        "Amount":155
+                    },
+                    "2014":{
+                        "No of Frauds":201,
+                        "Amount":170
+                    }
+                
+    
+            }]
+            }
+
+        ]
+    }

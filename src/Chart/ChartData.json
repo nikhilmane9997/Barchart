@@ -1,0 +1,28 @@
+{
+    "nine":{
+            "Advances":{
+            "No of Frauds":4610,
+            "Amount":182051
+        }
+        
+        ,
+            "Off Balance Sheet":{
+            "No of Frauds":34,
+            "Amount":2445
+        },
+        
+            "Forex Transaction":{
+            "No of Frauds":8,
+            "Amount":54
+        },
+        
+            "Card/Internet":{
+            "No of Frauds":2678,
+            "Amount":195
+        
+        }
+        
+
+    }
+   
+}

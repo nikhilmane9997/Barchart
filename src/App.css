@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+.theadcolor,th{
+  background-color: #16a7d9;
+  color: white;
+  border-radius: 5px !important;
+  padding: 3px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+
+}
+.trowcolor,th{
+  background-color: white;
+  color: white;
+  border-radius: 50px !important;
+}

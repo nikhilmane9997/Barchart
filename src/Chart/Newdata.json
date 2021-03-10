@@ -1,0 +1,110 @@
+{
+    "2019":[
+        {
+            "name":"Advances",
+            "No of Frauds":4610,
+            "Amount":182051
+        },
+        {
+            "name":"Off Balance Sheet",
+            "No of Frauds":34,
+            "Amount":2445
+        },
+        {
+            "name":"Forex Transaction",
+            "No of Frauds":8,
+            "Amount":54
+        },
+        {
+            "name":"Card/Internet",
+            "No of Frauds":2678,
+            "Amount":195
+        },
+        {
+            "name":"Deposits",
+            "No of Frauds":530,
+            "Amount":616
+        },
+        {
+            "name":"Inter Branch Accounts",
+            "No of Frauds":2,
+            "Amount":0
+        },
+        {
+            "name":"Cash",
+            "No of Frauds":371,
+            "Amount":63
+        },
+        {
+            "name":"Cheques/DD",
+            "No of Frauds":202,
+            "Amount":39
+        },
+        {
+            "name":"Clearing Account",
+            "No of Frauds":22,
+            "Amount":7
+        },
+        {
+            "name":"others",
+            "No of Frauds":250,
+            "Amount":174
+        }
+        
+
+    ],
+    "2018":[
+        {
+            "name":"Advances",
+            "No of Frauds":4610,
+            "Amount":182051
+        },
+        {
+            "name":"Off Balance Sheet",
+            "No of Frauds":34,
+            "Amount":2445
+        },
+        {
+            "name":"Forex Transaction",
+            "No of Frauds":8,
+            "Amount":54
+        },
+        {
+            "name":"Card/Internet",
+            "No of Frauds":2678,
+            "Amount":195
+        },
+        {
+            "name":"Deposits",
+            "No of Frauds":530,
+            "Amount":616
+        },
+        {
+            "name":"Inter Branch Accounts",
+            "No of Frauds":2,
+            "Amount":0
+        },
+        {
+            "name":"Cash",
+            "No of Frauds":371,
+            "Amount":63
+        },
+        {
+            "name":"Cheques/DD",
+            "No of Frauds":202,
+            "Amount":39
+        },
+        {
+            "name":"Clearing Account",
+            "No of Frauds":22,
+            "Amount":7
+        },
+        {
+            "name":"others",
+            "No of Frauds":250,
+            "Amount":174
+        }
+        
+
+    ]
+}
