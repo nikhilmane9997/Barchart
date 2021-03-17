@@ -3,7 +3,7 @@ import './App.css';
 import Charter from './Charter';
 import Tablestrap from './Login';
 import { Spreadsheet } from 'react-spreadsheet';
-// import NewChart from './Chart/NewChart';
+import NewChart from './Chart/NewChart';
 import SelectChart from './Chart/SelectChart';
 // import Chartjs from './Chart/Chartjs';
 // import Charts from './Chart/Charts';

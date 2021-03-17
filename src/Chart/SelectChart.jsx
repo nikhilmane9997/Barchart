@@ -15,12 +15,13 @@ import {
 import Datas from "./Simpledata.json";
 
 function SelectChart() {
+  
   const [one, setone] = useState("");
   const [two, settwo] = useState("");
-  const chart = ["PieChart", "Line", "Bar"];
+  const chart = ["PieChart", "Line", "Bar","Horizontal_stacked","Doughnut"];
   const toggle = () => setDropdownOpen((prevState) => !prevState);
   const toggles = () => setDropdownOpens((prevState) => !prevState);
-  const [chartData, setChartData] = useState({});
+  const [doughnutChart, setdoughnutChart] = useState();
   // advances
   const [labeldata, setlabeldata] = useState(54549);
   const [twos, setlabeldatatwo] = useState(22448);
@@ -221,7 +222,19 @@ function SelectChart() {
     // Nchart();
   }, []);
 
-  console.log(arr);
+  // console.log(arr);
+
+// const doughnut =""
+
+//  if(doughnutChart){
+//   doughnut=
+//   }
+
+
+
+
+
+
   return (
     <div className="mainDiv">
     <Container>
@@ -239,13 +252,16 @@ function SelectChart() {
               <DropdownMenu>
                 {arr.map((val, i) => {
                   {
-                    /* console.log(val) */
+                   console.log(val)
                   }
                   return (
                     <DropdownItem
                       key={i}
                       onClick={() => {
-                        setselectedcharts(val);
+                       
+                          setselectedcharts(val);
+                        
+                        
                       }}
                     >
                       {val}
@@ -290,7 +306,20 @@ function SelectChart() {
                     <DropdownItem
                       key={i}
                       onClick={() => {
-                        setselectedchart(val);
+                        if(val==="Horizontal_stacked"){
+                          setselectedchart("BarChart")
+                        }
+                        else if(val==="Doughnut"){
+                          setselectedchart("PieChart")
+                          setdoughnutChart(0.4)
+                        }
+                        else if(val==="PieChart"){
+                          setselectedchart("PieChart")
+                          setdoughnutChart(0)
+                        }
+                        
+                        else{
+                        setselectedchart(val);}
                       }}
                     >
                       {val}
@@ -366,11 +395,17 @@ function SelectChart() {
           options={{
             title: "",
             chartArea: { width: "100%" },
+            isStacked: true,
+            pieHole: doughnutChart,
             hAxis: {
               title: "Total Population",
               maxValue: 1000,
+              is3D: true,
+              
+             
               //     maxValue:20,
             },
+            
             vAxis: {
               title: "Area Operation",
               max: 1000,
@@ -381,8 +416,10 @@ function SelectChart() {
               easing: "in",
               startup: true,
             },
+            
           }}
           legendToggle
+          
         /></div>
       </center>
     </Container>
