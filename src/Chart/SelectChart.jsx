@@ -239,7 +239,7 @@ function SelectChart() {
     <div className="mainDiv">
     <Container>
       <center> <br/>
-        <h3 style={{ color:"purple" }}>CHARTS</h3>
+        <h3 style={{ color:"purple" }}>AIOTF ANALYSIS</h3>
         <Row>
           <Col>
             <Dropdown
