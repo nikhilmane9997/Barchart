@@ -18,7 +18,7 @@ function SelectChart() {
   
   const [one, setone] = useState("");
   const [two, settwo] = useState("");
-  const chart = ["PieChart", "Line", "Bar","Horizontal_stacked","Doughnut"];
+  const chart = ["PieChart", "Line", "Bar","Horizontal stacked","Doughnut"];
   const toggle = () => setDropdownOpen((prevState) => !prevState);
   const toggles = () => setDropdownOpens((prevState) => !prevState);
   const [doughnutChart, setdoughnutChart] = useState();
@@ -306,7 +306,7 @@ function SelectChart() {
                     <DropdownItem
                       key={i}
                       onClick={() => {
-                        if(val==="Horizontal_stacked"){
+                        if(val==="Horizontal stacked"){
                           setselectedchart("BarChart")
                         }
                         else if(val==="Doughnut"){
